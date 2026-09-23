@@ -8,7 +8,7 @@ export function Contatore() {
     }
 
     return (
-        <section className="container-contatore ">
+        <section className="container-container d-flex justify-content-center align-items-center gap-3 ">
             <button className="btn btn-primary m-2 text-white" onClick={aumenta}>Clicca qui</button>
             <p className="m-2 d-flex align-center" >Hai Cliccato {contatore} volte</p>
         </section>

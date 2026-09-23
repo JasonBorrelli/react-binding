@@ -12,7 +12,7 @@ export function BottonStyle() {
 
 
     return (
-        <section className="Container">
+        <section className="container d-flex justify-content-center align-items-center gap-3">
             <button className={style ? "btn btn-secondary text-uppercase bg-danger" : "btn btn-primary text-lowercase bg-success"} onClick={cambiaStile}>Cambia stile</button>
 
         </section>
