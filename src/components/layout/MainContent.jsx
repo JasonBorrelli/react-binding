@@ -15,7 +15,7 @@ export function MainContent() {
             <section className='container-bottonstyle mt-4 d-flex align-center flex-column'>
                 <BottonStyle />
             </section>
-            <section className='container-checklist mt-4 d-flex align-center flex-column'>
+            <section className='container-checklist mt-4 d-flex align- flex-column'>
                 <CheckList />
             </section>
         </main>
