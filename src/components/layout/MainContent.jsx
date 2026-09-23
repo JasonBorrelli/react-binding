@@ -1,6 +1,7 @@
 import { Contatore } from '../section/Contatore'
 import { ParagSetting } from '../section/ParagSetting'
 import { BottonStyle } from '../section/BottonStyle'
+import { CheckList } from '../section/CheckList'
 
 export function MainContent() {
     return (
@@ -13,6 +14,9 @@ export function MainContent() {
             </section>
             <section className='container-bottonstyle mt-4 d-flex align-center flex-column'>
                 <BottonStyle />
+            </section>
+            <section className='container-checklist mt-4 d-flex align-center flex-column'>
+                <CheckList />
             </section>
         </main>
     )
