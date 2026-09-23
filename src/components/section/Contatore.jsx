@@ -8,9 +8,9 @@ export function Contatore() {
     }
 
     return (
-        <>
-            <p>Hai Cliccato {contatore} volte</p>
-            <button className="btn btn-primary" onClick={aumenta}>Clicca qui</button>
-        </>
+        <section className="container-contatore ">
+            <button className="btn btn-primary m-2 text-white" onClick={aumenta}>Clicca qui</button>
+            <p className="m-2 d-flex align-center" >Hai Cliccato {contatore} volte</p>
+        </section>
     )
 }

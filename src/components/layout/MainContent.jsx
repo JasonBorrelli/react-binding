@@ -4,14 +4,14 @@ import { BottonStyle } from '../section/BottonStyle'
 
 export function MainContent() {
     return (
-        <main>
-            <section>
+        <main className='container mt-4 align-center'>
+            <section className='container-contatore mt-4 '>
                 <Contatore />
             </section>
-            <section>
+            <section className='container-paragsetting mt-4'>
                 <ParagSetting />
             </section>
-            <section>
+            <section className='container-bottonstyle mt-4'>
                 <BottonStyle />
             </section>
         </main>
