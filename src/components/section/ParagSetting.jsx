@@ -7,28 +7,28 @@ export function ParagSetting() {
     return (
         <section>
             <div className="container d-flex justify-content-center align-items-center gap-3">
-                <button
+                <button className="btn btn-secondary border-2 border-black"
                     type="button"
                     onClick={() => setTextAlignment("left")}
                     aria-label="Allinea a sinistra"
                 >
-                    <AlignLeft size={18} />
+                    <AlignLeft size={22} color="white" />
                 </button>
 
-                <button
+                <button className="btn btn-secondary border-2 border-black"
                     type="button"
                     onClick={() => setTextAlignment("center")}
                     aria-label="Allinea al centro"
                 >
-                    <AlignCenter size={18} />
+                    <AlignCenter size={22} color="white" />
                 </button>
 
-                <button
+                <button className="btn btn-secondary border-2 border-black"
                     type="button"
                     onClick={() => setTextAlignment("right")}
                     aria-label="Allinea a destra"
                 >
-                    <AlignRight size={18} />
+                    <AlignRight size={22} color="white" />
                 </button>
             </div>
 
